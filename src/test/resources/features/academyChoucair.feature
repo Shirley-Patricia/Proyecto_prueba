@@ -5,6 +5,8 @@
   Scenario: User register
     Given that Shirley wants to register on the application
     When she records her personal data
+      | strName | strLastName | strEmail         | strLanguage |
+      | Carlos  | Velez       | carlos@gmail.com | Frances     |
     And she enters the place where she live
     And she enters the mobile device data
     And she creates her password to enter the site
